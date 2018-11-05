@@ -60,7 +60,7 @@ app.post('/employee/new', function(req, res){
     });
 });
 
-//update an employee
+//update an employee - hernan
 app.get('/employee/:id/edit', function(req, res) {
 	employeeProvider.findById(req.params.id, function(error, employee) {
 		res.render('employee_edit',
